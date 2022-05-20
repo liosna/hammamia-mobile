@@ -1,0 +1,298 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /posts/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /plaintes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /suggestions/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /paragraphes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /pediatres/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /PV/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /pharmacies/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /generale/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /opticiens/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /pedopsychiatres/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /radiologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /cardiologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /orl/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /audiologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /orthophonistes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /dermatologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /gynecologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /kinesi/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /ophtalmologues/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /dentistes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /vet/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /avocats/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /huissiers/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /notaires/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /event/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /banques/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /postes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /assurances/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /comptables/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /associations/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /demandescontact/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /reservations/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /reservationsfinal/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /messages/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /conseil/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /forgerons/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /menuisiers/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /macons/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /peintres/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /plombiers/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /climatisation/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+  }
+}

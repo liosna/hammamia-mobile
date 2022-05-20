@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "796944204056",
+    "project_id": "salimmehdi-e65a6",
+    "storage_bucket": "salimmehdi-e65a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796944204056:android:b26466af15a1ea3a889e6d",
+        "android_client_info": {
+          "package_name": "com.flutterflow.salimehdi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796944204056-9k5v8ugebbcf3rjcmn6j0669eu4c3tls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbbBL_NLE5i_ztmcBYqcrGdVMde_xWwdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796944204056-9k5v8ugebbcf3rjcmn6j0669eu4c3tls.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "796944204056-1baq97dsod2lrp4abj1te34hld10aa8t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.salimehdi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
